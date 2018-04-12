@@ -12,4 +12,6 @@ int main()
 		}
 		cout << endl;
 	}
+	for (int i = 0; i < 9; i++)
+		cout << 9 << "*" << i << "=" << 9 * i << endl;
 }
