@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	for (int i = 0; i < 9; i++)
+	for (int i = 0; i < 10; i++)
 	{
 		cout << i + 1 << "´Ü : " << endl;
 		for (int j = 0; j < 10; j++)
@@ -12,6 +12,5 @@ int main()
 		}
 		cout << endl;
 	}
-	for (int i = 0; i < 9; i++)
-		cout << 9 << "*" << i << "=" << 9 * i << endl;
+
 }
